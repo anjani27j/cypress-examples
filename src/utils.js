@@ -5,6 +5,7 @@ const assertCypressVersion = (version) => {
   }
 
   const exactVersionRe = /^\d+\.\d+\.\d+$/
+  
   if (!exactVersionRe.test(version)) {
     throw new Error(
       `Cypress version "${version}" does not match exact version x.y.z`,
