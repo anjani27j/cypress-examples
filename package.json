@@ -1,6 +1,6 @@
 {
   "name": "@bahmutov/cypress-examples",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "description": "Cypress.io command examples",
   "private": false,
   "scripts": {
